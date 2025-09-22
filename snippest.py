@@ -1,3 +1,10 @@
+sudo apt install python3.12-venv
+python3 -m venv poova
+source poova/bin/activate
+pip install google-cloud-firestore
+
+==============================================
+
 from google.cloud import firestore
 
 # Initialize Firestore client
